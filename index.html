@@ -77,26 +77,30 @@
 		clear: both;
 		position: relative;
 		top: 200px;
+		width: 400px;
+		left: -80px;
 	}
 
 	.slides:hover .synopsis{
-		visibility:visible;transition: 2s;
+		visibility:visible;transition: all 2s ease;;
 	}
 	.synopsis{
 		clear: both;
 		position: absolute;
-		top: 200px;
-		opacity: 0.3;
+		top: 5%;
+		opacity: 0.5;
 		visibility: hidden;
 		color: #8B9AAC;
-
+		height: 350px;
+		width: 400px;
+		left: 15%;
+		font-size: 20px;
+		overflow: hidden;
+		background-color:#202B3A;
+		transition:  1s ease;
 	}
 
-	.synopsis:hover{
-		height: 400px;
-		width: 200px;
-		transition: 5s;
-	}
+	
 
 	
 	.footerItem1{float: left; width: 30%;}
@@ -126,7 +130,12 @@
 	aside a{color: #8B9AAC;font-size: 16px;}
 
 	#vid{margin-top: -230px;}
-	
+	#synopsisTitle{
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		font-size: 30px;
+	}
 </style>
 <head>
 	<title></title>
@@ -159,7 +168,8 @@
 			<br>
 			<button id="btn1" class="forward-btn" onclick="plusDivs(-1)"><</button>
 			<button id="btn2" class="back-btn" onclick="plusDivs(+1)">></button>
-			<p class="synopsis"><span id="synopsisTitle">Synopsis</span>While conducting an autopsy on former NFL football player Mike Webster (David Morse), forensic pathologist Dr. Bennet Omalu (Will Smith) discovers neurological deterioration that is similar to Alzheimer's disease. Omalu names the disorder chronic traumatic encephalopathy and publishes his findings in a medical journal. As other athletes face the same diagnosis, the crusading doctor embarks on a mission to raise public awareness about the dangers of football-related head trauma.</p>
+
+			<p class="synopsis"><span id="synopsisTitle">Synopsis</span><br>While conducting an autopsy on former NFL football player Mike Webster (David Morse), forensic pathologist Dr. Bennet Omalu (Will Smith) discovers neurological deterioration that is similar to Alzheimer's disease. Omalu names the disorder chronic traumatic encephalopathy and publishes his findings in a medical journal. As other athletes face the same diagnosis, the crusading doctor embarks on a mission to raise public awareness about the dangers of football-related head trauma.</p>
 	</div>
 	
 	</center>
