@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+
+	html{
+		background: url(concussion_ver3.jpg) no-repeat 80% 80% fixed;; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	}
+
+	/*body{background-image: url("concussion2.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		}*/
+
+	header{
+		background-color: #0B0E16;
+		width: 100%;
+		position: absolute;
+	}
+
+	#logo{
+		margin: 1% ;
+		border-radius: 50% 50%;
+		height: 150px;
+		width: 150px;
+		float: left;
+		position: relative;
+	}
+
+
+	.menuDiv{
+		margin-left: 10%;
+		margin-top: 8%;
+		position: relative;
+		float: left;
+		width: 50%;
+	}
+
+	.menu {
+		background-color:#202B3A;
+		border: 1px solid  #0B0E16;
+		color: #8B9AAC;
+		height: 10px;
+		padding:7px;
+		margin-left: 5%;
+
+	}
+	a{text-decoration: none; color: #8B9AAC;}
+
+	.forward-btn,.back-btn
+	{
+		background-color:#202B3A;
+		border: 1px solid  #0B0E16;
+		color: #8B9AAC;
+		height: 40px;
+		width: 40px;
+	}
+
+	#btn1:hover,#btn2:hover
+	{
+		background-color:#202B3A;
+		border: 1px solid  #0B0E16;
+		color: #8B9AAC;
+		cursor: hand;
+	}
+
+	.dogs{
+			width:500px;
+			height: 400px;
+		}
+
+	.slides{
+		clear: both;
+		position: relative;
+		top: 200px;
+	}
+
+	.slides:hover .synopsis{
+		visibility:visible;transition: 2s;
+	}
+	.synopsis{
+		clear: both;
+		position: absolute;
+		top: 200px;
+		opacity: 0.3;
+		visibility: hidden;
+		color: #8B9AAC;
+
+	}
+
+	.synopsis:hover{
+		height: 400px;
+		width: 200px;
+		transition: 5s;
+	}
+
+	
+	.footerItem1{float: left; width: 30%;}
+	.footerItem2{}
+	.footerItem3{float: right;}
+
+	.socialico{
+
+				width: 30px;
+				height: 30px;margin-top: 3%;
+			}
+
+
+	#contme{
+				float: left;color:white;margin-top: 3%;
+			}
+
+			
+
+			#copywrite{
+				float:right;
+				margin-top: -2%;
+
+			}
+	aside{margin-top: -200px ;width:20%; opacity: 0.5;
+		background:	#192532;color: #8B9AAC;}
+	aside a{color: #8B9AAC;font-size: 16px;}
+
+	#vid{margin-top: -230px;}
+	
+</style>
+<head>
+	<title></title>
+</head>
+<header>
+		
+		<img id="logo" src="Concussion_poster.jpg">
+			
+		<div class="menuDiv">
+			<a class="menu" href="">Home</a>
+			<a class="menu"  href="">About</a>
+			<a class="menu"  href="">Casts</a>
+		</div>	
+		
+	</header>
+
+<body>
+	<div><center>
+	<div class="slides">
+			<img src="Concussion_poster.jpg" class="dogs" id="dog1">
+			<img src="concussion2.jpeg" class="dogs" id="dog2">
+			<img src="con1.jpg" class="dogs" id="dog3">
+			<img src="Con2.png" class="dogs" id="dog1">
+			<img src="con3.jpg" class="dogs" id="dog2">
+			<img src="con4.jpg" class="dogs" id="dog3">
+			<img src="Con5.jpg" class="dogs" id="dog1">
+			<img src="con6.jpg" class="dogs" id="dog2">
+			<img src="con7.jpg" class="dogs" id="dog3">
+			<div class="dogs" >dsyjgds dsisduy gs 7styusdyygsd</div>
+			<br>
+			<button id="btn1" class="forward-btn" onclick="plusDivs(-1)"><</button>
+			<button id="btn2" class="back-btn" onclick="plusDivs(+1)">></button>
+			<p class="synopsis"><span id="synopsisTitle">Synopsis</span>While conducting an autopsy on former NFL football player Mike Webster (David Morse), forensic pathologist Dr. Bennet Omalu (Will Smith) discovers neurological deterioration that is similar to Alzheimer's disease. Omalu names the disorder chronic traumatic encephalopathy and publishes his findings in a medical journal. As other athletes face the same diagnosis, the crusading doctor embarks on a mission to raise public awareness about the dangers of football-related head trauma.</p>
+	</div>
+	
+	</center>
+	</div>
+</body>
+<div style="float:right;">
+	<!-- <video autoplay loop poster="polina.jpg" width="400px" height="600px">
+				<source src="https://www.youtube.com/embed/Io6hPdC41RM" type="video/mp4"></video> -->
+				<iframe id="vid" width="400" height="450" src="https://www.youtube.com/embed/Io6hPdC41RM" frameborder="0" allowfullscreen></iframe>
+</div>
+<aside>
+	<div id="castlist">
+				
+					<marquee id="moviecasthighlight" onMouseOver="this.scrollAmount=4" onMouseOut="this.scrollAmount=1" scrollamount="4" direction="up" loop="true"  height="400" width="300">
+						<span>Cast</span>
+						<ul>
+							<li><a href="http://www.imdb.com/name/nm0000552/?ref_=ttfc_fc_cl_t1">Eddie Murphy</a></li>
+							<li><a href="http://www.imdb.com/name/nm0002119/?ref_=ttfc_fc_cl_t2">Arsenio Hall</a></li>
+							<li><a href="http://www.imdb.com/name/nm0000469/?ref_=ttfc_fc_cl_t3">James Earl Jones</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t4">John Amos</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t5">EMadge Sinclair</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t6">Shari Headley</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t7">Paul Bates</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t8">Eriq La Salle</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t9">Frankie Faison</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t10">Vanessa Bell Calloway</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t11">Louie Anderson</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t12">Allison Dean</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t13">Sheila Johnson</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t14">Jake Steinfeld</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t15">Calvin Lockhart</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t7">Paul Bates</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t8">Eriq La Salle</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t9">Frankie Faison</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t10">Vanessa Bell Calloway</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t11">Louie Anderson</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t12">Allison Dean</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t13">Sheila Johnson</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t14">Jake Steinfeld</a></li>
+							<li><a href="http://www.imdb.com/name/nm0025309/?ref_=ttfc_fc_cl_t15">Calvin Lockhart</a></li>
+						</ul>
+					</marquee>
+				</div>
+
+</aside>
+<footer>
+	<div class="footerItem1"></div>
+	<div id="contme"><a href="fom1.html" >Contact Us</a></div>
+		<center>
+				<div id="connectme">
+					<a href="https://www.facebook.com/dareshow">
+						<img class="socialico" src="facebook_circle2.png">
+					</a>
+					<a href="https://plus.google.com/u/0/explore">
+						<img class="socialico" src="google_circle.png">
+					</a>
+					<a href="https://www.linkedin.com/in/tunde-shoneye-20490792?trk=hp-identity-name">
+						<img class="socialico" src="linkedin_circle.png">
+					</a>
+					<a href="https://www.facebook.com/dareshow">
+						<img class="socialico" src="twitter_circle.png">
+					</a>
+				</div>
+			</center>
+			<div id="copywrite" style="float: right; margin-right: 5%; color: #8B9AAC;" ><sapn>Copyright  &copy</sapn>
+</footer>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	var slideIndex=1;
+showDivs(slideIndex);
+
+function plusDivs(n){
+	showDivs(slideIndex +=n)
+}
+
+function showDivs(n){
+	var i;
+	var x=document.getElementsByClassName("dogs");
+
+	if (n> x.length){
+		slideIndex=1;
+	}
+	if(n<1){
+		slideIndex=x.length;
+	}
+
+	for(i=0;i<x.length;i++){
+		x[i].style.display="none";
+	}
+
+	x[slideIndex-1].style.display="block";
+
+
+}
+</script>
+</html>
